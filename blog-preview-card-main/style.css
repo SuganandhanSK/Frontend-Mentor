@@ -1,0 +1,111 @@
+/* CSS VARIABLES */
+
+:root {
+
+    /* COLORS */
+
+    --Yellow: hsl(47, 88%, 63%);
+    --White: hsl(0, 0%, 100%);
+    --Gray-500: hsl(0, 0%, 42%);
+    --Gray-950: hsl(0, 0%, 7%);
+
+    /*FONT */
+
+    --Figtree:"Figtree", sans-serif;
+
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+    font-family: var(--Figtree);
+    background-color: var(--Yellow);
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    
+ 
+}
+
+.card {
+    width: 384px;
+    height: 522px;
+    background-color: var(--White) !important;
+    border-radius: 20px;
+    gap: 24px;
+    box-shadow: 7px 7px var(--Gray-950);
+    border: 1px solid var(--Gray-950);
+ 
+}
+
+img {
+    margin: 24px;
+    border-radius: 10px;
+
+}
+
+.content {
+    background-color: var(--White) !important;
+    margin-left: 12px;
+    text-align: left;
+    
+}
+
+.btn {
+    background-color: var(--Yellow);
+    border-radius: 4px;
+    padding: 5px 12px;
+    margin-left: 12px;
+    font-weight: bold;
+    border: none;
+    
+}
+
+.content h5,h2 {
+    background-color: var(--White);
+    text-align: left;
+    padding: 10px;
+    color: var(--Gray-950);
+}
+
+.content p {
+    background-color: var(--White);
+    text-align: left;
+    color: var(--Gray-500);
+    font-size: 16px;
+    margin-left: 12px;
+}
+
+.author{
+    background-color: var(--White);
+    display: flex;
+    justify-content: left ;
+    align-items: center;
+    gap: px;
+    
+}
+
+.author img {
+   background-color: var(--White); 
+   width: 32px;
+   height: 32px;
+   
+}
+
+h4 {
+  background-color: var(--White);  
+}
+
+footer {
+    margin: 5px;
+    padding: 5px;
+}
+
